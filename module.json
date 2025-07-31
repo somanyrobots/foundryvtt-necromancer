@@ -2,10 +2,12 @@
   "id": "necromancer",
   "title": "Necromancer",
   "description": "The Necromancer class for 5e, by somanyrobots",
+  "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
+    "verified": 11
   },
   "authors": [
     {
@@ -44,6 +46,9 @@
       "path": "languages/en.json"
     }
   ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
