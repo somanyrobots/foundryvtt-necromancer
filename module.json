@@ -1,20 +1,22 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "necromancer",
+  "title": "Necromancer",
+  "description": "The Necromancer class for 5e, by somanyrobots",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "verified": 12
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "somanyrobots",
+      "url": "https://www.somanyrobots.com",
+      "discord": "somanyrobots#9800",
+      "patreon": "https://www.patreon.com/somanyrobots",
+      "email": "somanyrobots@somanyrobots.com",
+      "reddit": "https://www.reddit.com/user/somanyrobots"
     }
   ],
   "relationships": {
