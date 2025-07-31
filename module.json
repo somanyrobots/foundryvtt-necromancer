@@ -2,12 +2,10 @@
   "id": "necromancer",
   "title": "Necromancer",
   "description": "The Necromancer class for 5e, by somanyrobots",
-  "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 12
   },
   "authors": [
     {
@@ -19,6 +17,16 @@
       "reddit": "https://www.reddit.com/user/somanyrobots"
     }
   ],
+  "packs": [
+      {
+          "name": "necromancer-items",
+          "label": "Necromancer Class",
+          "path": "./packs/items.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "dnd5e"
+      }
+  ],
   "relationships": {
     "systems": [],
     "requires": []
@@ -29,9 +37,6 @@
   "scripts": [
     "scripts/lib/lib.js"
   ],
-  "styles": [
-    "styles/module.css"
-  ],
   "languages": [
     {
       "lang": "en",
@@ -39,9 +44,6 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
